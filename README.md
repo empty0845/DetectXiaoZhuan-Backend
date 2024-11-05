@@ -61,7 +61,7 @@ The server will run on `http://127.0.0.1:5000/` by default.
 
 ## **License**
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the full details at [MIT License](https://opensource.org/licenses/MIT).
 
 ## **Developers**
 

@@ -5,8 +5,8 @@ dbinfo = {
     'host': 'localhost',    #数据库的主机ip
     'port': 3306,           #数据库所开放接口
     "user": "root",         #数据库用户名
-    "password": "d8z250",   #数据库密码
-    "database": "new_schema2"       #导入sql文件的数据库库名
+    "password": "password",   #数据库密码
+    "database": "new_schema"       #导入sql文件的数据库库名
 }
 
 

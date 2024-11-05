@@ -1,6 +1,6 @@
 # **DetectXiaoZhuan-Backend**
 
-This repository contains the backend code for the **DetectXiaoZhuan** project, which is designed to detect XiaoZhuan (small seal script) characters using YOLOv5. The backend includes the necessary API, model handling, and database interaction logic.
+This repository contains the backend code for the **DetectXiaoZhuan** project, which is designed to detect XiaoZhuan (small seal script) characters using YOLOv5. The backend includes model handling and database interaction logic.
 
 ## **Project Structure**
 
@@ -35,7 +35,7 @@ pip install -r requirements.txt
 ### 3. **Set up the MySQL database**
 - Ensure you have MySQL installed and running.
 - Create a new database (e.g., `xiao_zhuan_db`).
-- Run the SQL script (newtable.sql) to import necessary tables:
+- Run the SQL script `newtable.sql` to import necessary tables.
 
 ### 4. **Configure the Flask server**
 - Update the database connection settings in `mysql.py` with your MySQL credentials (host, username, password, database name).

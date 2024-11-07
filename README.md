@@ -3,12 +3,14 @@
 This repository contains the backend code for the **DetectXiaoZhuan** project, which is designed to detect XiaoZhuan (small seal script) characters using YOLOv5. The backend includes model handling and database interaction logic.
 
 ## Alternative Version Branch
-A different version is available in the branch **`feature/replace-image-with-video`**, which allows videos to be displayed on the frontend in place of images.
+A different version is available in the branch **`feature/video-version`**, which allows videos to be displayed on the frontend.
 
-### How to Switch to the Video Version:
-1. Run the `changeToVideo.sql` script to modify the database schema.
-2. Ensure the frontend is using the **`feature/replace-image-with-video`** branch from the corresponding frontend repository.
-3. **Note:** Due to copyright concerns, the actual video URLs are not included in `changeToVideo.sql`. Users need to add their own video URLs to the database.
+### How to Switch to the Video Version
+
+1. Ensure you are using the **`feature/video-version`** branch from this repository.
+2. Verify that the frontend is using the **`feature/video-version`** branch from the corresponding frontend repository.
+3. Follow the instructions provided in the `readme.md` file.
+4. **Note:** Due to copyright concerns, the actual video URLs are not included in the `newtable.sql` file. Users must add their own video URLs to the database.
 
 ## Related Repositories
 

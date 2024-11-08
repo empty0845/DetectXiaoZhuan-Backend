@@ -82,3 +82,12 @@ The server will run on `http://127.0.0.1:5000/` by default.
 ## **License**
 
 This project is licensed under the MIT License. See the full details at [MIT License](https://opensource.org/licenses/MIT).
+
+## Contributors
+
+This project is maintained and contributed to by the following individuals:
+
+- [empty0845](https://github.com/empty0845)
+- [SparseMatric-1](https://github.com/SparseMatric-1)
+- [Xi2aoyu24](https://github.com/Xi2aoyu24)
+- [Eloisseee](https://github.com/Eloisseee)

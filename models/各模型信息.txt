@@ -1,19 +1,19 @@
 xiaozhuan_model1: 
 训练集：171张照片
 400轮
-识别准确率一般
+
 xiaozhuan_model2: 
 训练集：351张照片
 500轮
-识别比较精准
+
 xiaozhuan_model3: 
 训练集：171张照片
 450轮
-识别准确率比较一般
+
 xiaozhuan model4: 
 训练集：351张照片
 150轮
-识别准确率尚可，但每个框的置信度都不高
+
 xiaozhuan model5:
 训练集：351张照片
-500轮
+600轮

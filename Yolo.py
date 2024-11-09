@@ -5,16 +5,6 @@ import onnxruntime as ort
 import cv2
 import numpy as np
 
-'''
-CLASSES = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29,
-           30]  # 类别(uuid-classname)
-
-CLASSES = ['广州塔', '广州大剧院', '五羊石像', '镇海楼', '人民公园', '南海神庙', '解放纪念碑', '中山纪念堂', 'N/A', '白天鹅宾馆', '广东国际大厦', '陈家祠',
-           '农讲所纪念馆', '赤岗塔', '石室圣心大教堂', '骑楼', '光孝寺', '粤海关', '海珠桥', '广州邮政博览馆', '爱群大厦', '南方大厦', '广州鲁迅纪念馆', '南粤苑', '余荫山房', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A']
-'''
-# CLASSES = ['Canton tower', ' Guangzhou Opera House', 'Five Goat Statue', 'Zhenhai Tower', 'People Park', 'Nanhai Temple', 'Liberation Monument', 'Sun Yat-sen Memorial Hall', 'N/A', 'White Swan Hotel', 'Guangdong International Building', 'Chen Clan Academy', 'Nong Jang Suo Memorial Hall',
-#            'Chigang Pagoda', 'Sacred Heart Cathedral', 'Arcade', 'Guangxiao Temple', 'Yuehai Customs', 'Haizhu Bridge', 'Guangzhou Post Expo', 'Aiqun Building', 'South Building', 'Guangzhou Lu Xun Memorial Hall', 'Nanyue Garden', 'Yu Yin Mountain House', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A']
-
 CLASSES = [
     '八', '巴', '癹', '白', '百', '般', '邦', '雹', '豹', '卑',
     '北', '祊', '鼻', '匕', '比', '必', '闭', '畀', '敝', '辟',

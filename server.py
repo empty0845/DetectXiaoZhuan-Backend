@@ -123,6 +123,7 @@ def get_article():
     descri = res[0][3]
     image_path = res[0][4]
     logo_count = res[0][5]
+    video_path = res[0][6]
     logo_count = random.randint(0, logo_count - 1 if logo_count - 1 >= 2 else 2)
     logo_path = logo_path.split(".")[0] + ".png"
 
@@ -146,6 +147,10 @@ def get_article():
         {
             "type": "image_path",
             "content": image_path
+        },
+        {
+            "type": "video_path",
+            "content": video_path
         }
     ]
     data = {
@@ -153,7 +158,8 @@ def get_article():
         "logo_path": logo_path,
         "name": name,
         "descri": descri,
-        "image_path": image_path
+        "image_path": image_path,
+        "video_path": video_path
     }
     ret = {"data": data,
            "code": 200,

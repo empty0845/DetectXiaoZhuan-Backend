@@ -6,7 +6,7 @@ dbinfo = {
     'port': 3306,           #数据库所开放接口
     "user": "root",         #数据库用户名
     "password": "d8z250",   #数据库密码
-    "database": "new_schema2"       #导入sql文件的数据库库名
+    "database": "new_schema4"       #导入sql文件的数据库库名
 }
 
 

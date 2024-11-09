@@ -59,8 +59,6 @@ To start the Flask server:
 python server.py
 ```
 
-The server will run on `http://127.0.0.1:5000/` by default.
-
 ## **File Descriptions**
 
 - **`id_to_uuid.json`**: A mapping file where each record’s ID is mapped to a unique UUID and a name. This is used for identifying the detected characters.

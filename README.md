@@ -46,6 +46,7 @@ pip install -r requirements.txt
 - Ensure you have MySQL installed and running.
 - Create a new database (e.g., `xiao_zhuan_db`).
 - Run the SQL script `newtable.sql` to import necessary tables.
+- **Note:** Due to copyright concerns, the actual video URLs are not included in the `newtable.sql` file. Users must add their own video URLs to the database.
 
 ### 4. **Configure the Flask server**
 - Update the database connection settings in `mysql.py` with your MySQL credentials (host, username, password, database name).

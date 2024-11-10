@@ -1,5 +1,7 @@
 # **DetectXiaoZhuan-Backend**
 
+[中文版本 README 在此查看](README_zh.md)
+
 This project is a modification based on the “Famous City Guangzhou - AI Exploration and Object Recognition” project, originally developed by the “Object Recognition Exploration” development team. While leveraging the foundation of the original project, this project (DetectXiaoZhuan) adapts the codebase to achieve a different functionality, specifically for the detection of XiaoZhuan (small seal script) characters.
 
 This repository contains the backend code for the **DetectXiaoZhuan** project, which is designed to detect XiaoZhuan (small seal script) characters using YOLOv5. The backend includes model handling and database interaction logic.

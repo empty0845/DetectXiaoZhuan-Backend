@@ -1,5 +1,7 @@
 # **DetectXiaoZhuan-Backend**
 
+[查看英文版 README](README.md)
+
 本项目基于“名城广州-AI探趣”项目进行修改，原项目由“识物探趣”开发小组创建。在利用原项目的基础上，本项目（DetectXiaoZhuan）对代码库进行了调整，以实现不同的功能，专用于检测小篆。
 
 该仓库包含 **DetectXiaoZhuan** 项目的后端代码，使用YOLOv5模型检测小篆。后端包括模型处理和数据库交互逻辑。
@@ -78,5 +80,3 @@ python server.py
 - [SparseMatric-1](https://github.com/SparseMatric-1)
 - [Xi2aoyu24](https://github.com/Xi2aoyu24)
 - [Eloisseee](https://github.com/Eloisseee)
-
-[查看英文版 README](README.md)

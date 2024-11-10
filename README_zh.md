@@ -2,7 +2,7 @@
 
 [English README available here](README.md)
 
-本项目基于“名城广州-AI探趣”项目进行修改，原项目由“识物探趣”开发小组创建。在利用原项目的基础上，本项目（DetectXiaoZhuan）对代码库进行了调整，以实现不同的功能，专用于检测小篆。
+本项目基于“名城广州-AI探趣”项目进行修改，原项目由“识物探趣”开发小组创建。在利用原项目的基础上，本项目（DetectXiaoZhuan）对代码进行了调整，以实现不同的功能，专用于检测小篆。
 
 该仓库包含 **DetectXiaoZhuan** 项目的后端代码，使用YOLOv5模型检测小篆。后端包括模型处理和数据库交互逻辑。
 
@@ -16,7 +16,7 @@
 
 ## **项目结构**
 
-- **`/static/new_image/`**：存放包含小篆字符的图像的目录。
+- **`/static/new_image/`**：存放包含小篆的图像的目录。
 - **`/static/new_logo/`**：程序 Logo 图像的目录。
 - **`./id_to_uuid.json`**：将 ID 映射到包含 `{uuid, name}` 的字典的 JSON 文件。
 - **`./newtable.sql`**：用于将数据导入 MySQL 数据库的 SQL 脚本。
@@ -65,7 +65,7 @@ python server.py
 - **`newtable.sql`**：设置数据库表的 SQL 脚本，用于存储检测结果及其他数据。
 - **`models/`**：包含训练好的 YOLOv5 模型。确保在执行推理时加载正确的模型。
 - **`mysql.py`**：包含与 MySQL 数据库交互的函数，例如查询和插入数据。
-- **`server.py`**：主 Flask 服务器文件，提供 RESTful API 并处理与小篆字符检测相关的请求。
+- **`server.py`**：主 Flask 服务器文件，提供 RESTful API 并处理与小篆检测相关的请求。
 - **`Yolo.py`**：用于加载和运行 YOLOv5 模型，对输入图像进行目标检测的代码。
 
 ## **许可证**

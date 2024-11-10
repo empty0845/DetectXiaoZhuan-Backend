@@ -1,6 +1,6 @@
 # **DetectXiaoZhuan-Backend**
 
-[查看英文版 README](README.md)
+[English README available here](README.md)
 
 本项目基于“名城广州-AI探趣”项目进行修改，原项目由“识物探趣”开发小组创建。在利用原项目的基础上，本项目（DetectXiaoZhuan）对代码库进行了调整，以实现不同的功能，专用于检测小篆。
 
